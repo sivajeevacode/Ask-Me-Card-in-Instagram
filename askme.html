@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoderSiva | Ask Me Card</title>
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    outline:none;
+    font-family:'poppins',sans-serif;
+}
+body{
+    background:url(siva.jpg);
+    backdrop-filter:blur(10px);
+    background-size:100%;
+    height:100vh;
+    width:100%;
+
+}
+.container{
+    position:relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    width:100%;
+}
+.card{
+    width:400px;
+    height:180px;
+    background:#fff;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.5);
+}
+.logo img{
+    border-radius:50%;
+    border:2px solid #fff;
+    margin-left:38%;
+    transform:translateY(-30px);
+    z-index:1;
+    
+}
+.content{
+    padding: 0 29px;
+    
+}
+h2{
+    text-align:center;
+    font-weight:bold;
+    transform:translateY(-25px);
+    
+}
+.content input{
+    padding:20px 80px;
+    text-align:center;
+    margin-bottom:20spx;
+    font-size:15px;
+    border:none;
+    outline:none;
+    overflow:hidden;
+    background:rgba(0,0,0,0.25);
+    border-radius:5px;
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="logo">
+                <img src="siva.jpg" alt="" height="80px " width="80px">
+            </div>
+            <div class="content">
+                <h2>Ask Me A Question</h2>
+                <input type="text"placeholder="type something...">
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
